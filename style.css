@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: rgba(20, 12, 240, 0.025);
+   margin-top: 30px;
+}
+h1{
+    margin: 15px;
+    font-size: 2.5em;
+}
+h1 span{
+    color: red;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container input{
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}
+.container .date{
+    width: 150px;
+}
+.container .btn{
+    background: lightblue;
+    border: none;
+    color: rgba(0,0,0,0.9);
+    height: 30px;
+    width: 100px;
+    font-size: 1.2em;
+}
+.container .table
+{
+    margin-top: 20px;
+    margin-left: 30px;
+    background: rgba(0,0,0,0.1);
+    width: 450px;
+}
+.container .table th{
+    background: rgba(0,0,0,0.1);
+    color: rgb(151, 50, 205);
+}
